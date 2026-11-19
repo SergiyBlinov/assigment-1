@@ -15,10 +15,8 @@ pip install -r requirements.txt
 jupyter lab
 ```
 
-Open `src/bpic2017_analysis.ipynb` and run all cells. Place the original event log at `data/BPI2017.xes`. On the first run, the notebook creates `data/BPI2017.parquet`; later runs use this cache when it is newer than the XES file. Put user-provided BPMN models in `data/bpmn/external/`. Discovered BPMN models are written to `data/bpmn/discovered/`.
-
-Previous comparison data, PNML models, and rendered figures are preserved under `data/processed/legacy/`; earlier BPMN exports are under `data/bpmn/discovered/legacy/`.
+Open `src/bpic2017_analysis.ipynb` and run all cells. Place the original event log at `data/BPI2017.xes`. On the first run, the notebook creates `data/BPI2017.parquet`; later runs use this cache when it is newer than the XES file. Put user-provided BPMN models in `data/bpmn/external/`.
 
 ## AI Assistance Disclosure
 
-AI assistance was used to refactor and format the analysis notebook, organize the repository, and document the workflow. Analysis logic and reported historical results were retained from the existing project; newly computed results should be validated by running the notebook.
+AI assistance was used to refactor and format the analysis notebook, organize the repository, and document the workflow.
