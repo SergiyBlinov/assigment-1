@@ -1,0 +1,12 @@
+# Large source data and generated cache
+*.xes
+*.parquet
+
+# Python environments and generated files
+.venv/
+venv-assigment1/
+__pycache__/
+*.py[cod]
+
+# Notebook runtime state
+.ipynb_checkpoints/

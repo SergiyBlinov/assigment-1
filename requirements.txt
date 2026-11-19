@@ -1,0 +1,13 @@
+# Process mining
+pm4py==2.7.11
+
+# Data handling and parquet cache
+pandas>=2.2,<3.0
+numpy>=1.26,<3.0
+pyarrow>=14,<20
+
+# Notebook and visualization
+jupyterlab>=4,<5
+ipykernel>=6,<7
+matplotlib>=3.8,<4.0
+graphviz==0.21
